@@ -119,8 +119,8 @@ export function getHtml(parsedReq: ParsedRequest) {
             <div class="logo-wrapper">
                 <img
                     class="logo"
-                    alt="Generated Image"
-                    src="../../public/logo.png"
+                    alt="Feasting Together Logo"
+                    src="https://www.feastingtogether.com/Branding/Logo.png"
                     width="auto"
                     height="225"
                 />
