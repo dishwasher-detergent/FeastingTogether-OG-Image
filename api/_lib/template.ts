@@ -85,7 +85,6 @@ export function getHtml(parsedReq: ParsedRequest) {
     </style>
     <body>
         <div>
-            <div class="spacer">
             <div class="logo-wrapper">
                 <img
                     class="logo"
@@ -95,7 +94,6 @@ export function getHtml(parsedReq: ParsedRequest) {
                     height="225"
                 />
             </div>
-            <div class="spacer">
             <div class="heading">
             <p class="title">Invite Code</p>
             <p class="code">
