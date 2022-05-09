@@ -120,7 +120,7 @@ export function getHtml(parsedReq: ParsedRequest) {
                 <img
                     class="logo"
                     alt="Generated Image"
-                    src="/public/logo.png"
+                    src="../../public/logo.png"
                     width="auto"
                     height="225"
                 />
