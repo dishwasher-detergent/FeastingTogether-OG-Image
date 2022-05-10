@@ -57,15 +57,15 @@ function getCss() {
 
     .code-label {
         font-weight: bold;
-        font-size: 5rem;
+        font-size: 6rem;
         padding: 0 0 .5rem 2rem;
         margin: 0;
     }
 
     .code-text {
         font-weight: bold;
-        font-size: 14rem;
-        padding: 0rem 1.5rem;
+        font-size: 15rem;
+        padding: 0rem 3rem;
         border-radius: 2rem;
         background-color: #1e293b;
         margin: 0;
