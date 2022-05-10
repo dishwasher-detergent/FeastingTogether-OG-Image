@@ -46,7 +46,7 @@ function getCss() {
 
     .logo-text {
         margin-top: 0;
-        font-size: 3rem;
+        font-size: 5rem;
         font-family: Magic, sans-serif;
     }
 
@@ -91,9 +91,9 @@ export function getHtml(parsedReq: ParsedRequest) {
                     alt="Feasting Together Logo"
                     src="https://www.feastingtogether.com/Branding/Logo_Light.png"
                     width="auto"
-                    height="225"
+                    height="500"
                     />
-                <p class="logo-text">Feasting Together</p>
+                <p class="logo-text">Feasting<br>Together</p>
             </div>
             <div class="code-wrapper">
                 <p class="code-label">Invite Code:</p>
