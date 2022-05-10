@@ -3,9 +3,8 @@ import { readFileSync } from 'fs';
 import { sanitizeHtml } from './sanitizer';
 import { ParsedRequest } from './types';
 
-const rglr = readFileSync(`${__dirname}/../_fonts/Nunito-VariableFont-wght.ttf`).toString('base64');
+const rglr = readFileSync(`${__dirname}/../_fonts/Nunito_VariableFont_wght.ttf`).toString('base64');
 const main = readFileSync(`${__dirname}/../_fonts/Letter_Magic.ttf`).toString('base64');
-
 
 function getCss() {
     return `
@@ -27,7 +26,7 @@ function getCss() {
         text-align: center;
         align-items: center;
         justify-content: center;
-        font-family: 'Nunito', sans-serif;
+        font-family: Nunito, sans-serif;
     }
 
     .wrapper {
@@ -45,7 +44,7 @@ function getCss() {
 
     .logo-text {
         font-size: 1.5rem;
-        font-family: 'Magic', sans-serif;
+        font-family: Magic, sans-serif;
     }
 
     .code-wrapper {
@@ -53,19 +52,21 @@ function getCss() {
         text-align: left;
     }
 
-    .code-wrapper h1, .code-wrapper p {
-        margin: 0;
-        padding: 0;
-    }
-
     .code-label {
-        font-weight: 600;
-        font-size: 1.25rem;
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 0 0 .5rem 2rem;
+        margin: 0;
     }
 
     .code-text {
         font-weight: bold;
         font-size: 10rem;
+        padding: 0rem 1.5rem;
+        border-radius: 2rem;
+        background-color: white;
+        margin: 0;
+        border: solid 1px #cbd5e1;
     }`;
 }
 
