@@ -3,19 +3,19 @@ import { readFileSync } from 'fs';
 import { sanitizeHtml } from './sanitizer';
 import { ParsedRequest } from './types';
 
-const rglr = readFileSync(`${__dirname}/../_fonts/Nunito_VariableFont_wght.ttf`).toString('base64');
-const main = readFileSync(`${__dirname}/../_fonts/Letter_Magic.ttf`).toString('base64');
+const rglr = readFileSync(`${__dirname}/../_fonts/Nunito_VariableFont_wght.woff2`).toString('base64');
+const main = readFileSync(`${__dirname}/../_fonts/Letter_Magic.woff2`).toString('base64');
 
 function getCss() {
     return `
     @font-face {
         font-family: 'Nunito';
-        src: url(data:font/ttf;charset=utf-8;base64,${rglr}) format('ttf');
+        src: url(data:font/woff2;charset=utf-8;base64,${rglr}) format('woff2');
     }
 
     @font-face {
         font-family: 'Magic';
-        src: url(data:font/ttf;charset=utf-8;base64,${main}) format('ttf');
+        src: url(data:font/woff2;charset=utf-8;base64,${main}) format('woff2');
     }
 
     body {
@@ -26,7 +26,7 @@ function getCss() {
         text-align: center;
         align-items: center;
         justify-content: center;
-        font-family: Nunito, sans-serif;
+        font-family: "Nunito", sans-serif;
         color: white;
     }
 
@@ -45,6 +45,7 @@ function getCss() {
 
     .logo-text {
         font-size: 1.5rem;
+        font-family: "Magic", sans-serif;
     }
 
     .code-wrapper {
