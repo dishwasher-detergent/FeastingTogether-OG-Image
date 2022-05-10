@@ -26,7 +26,7 @@ function getCss() {
         text-align: center;
         align-items: center;
         justify-content: center;
-        font-family: "Nunito", sans-serif;
+        font-family: Nunito, sans-serif;
         color: white;
     }
 
@@ -45,8 +45,9 @@ function getCss() {
     }
 
     .logo-text {
-        font-size: 1.5rem;
-        font-family: "Magic", sans-serif;
+        margin-top: 0;
+        font-size: 3rem;
+        font-family: Magic, sans-serif;
     }
 
     .code-wrapper {
@@ -56,14 +57,14 @@ function getCss() {
 
     .code-label {
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 5rem;
         padding: 0 0 .5rem 2rem;
         margin: 0;
     }
 
     .code-text {
         font-weight: bold;
-        font-size: 10rem;
+        font-size: 14rem;
         padding: 0rem 1.5rem;
         border-radius: 2rem;
         background-color: #1e293b;
