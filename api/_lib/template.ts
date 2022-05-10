@@ -19,7 +19,7 @@ function getCss() {
     }
 
     body {
-        background: #f1f5f9;
+        background: #0f172a;
         background-size: 100px 100px;
         height: 100vh;
         display: flex;
@@ -27,6 +27,7 @@ function getCss() {
         align-items: center;
         justify-content: center;
         font-family: Nunito, sans-serif;
+        color: white;
     }
 
     .wrapper {
@@ -44,7 +45,6 @@ function getCss() {
 
     .logo-text {
         font-size: 1.5rem;
-        font-family: Magic, sans-serif;
     }
 
     .code-wrapper {
@@ -64,9 +64,9 @@ function getCss() {
         font-size: 10rem;
         padding: 0rem 1.5rem;
         border-radius: 2rem;
-        background-color: white;
+        background-color: #1e293b;
         margin: 0;
-        border: solid 1px #cbd5e1;
+        border: solid 1px #475569;
     }`;
 }
 
@@ -86,7 +86,7 @@ export function getHtml(parsedReq: ParsedRequest) {
                 <img
                     class="logo"
                     alt="Feasting Together Logo"
-                    src="https://www.feastingtogether.com/Branding/Logo.png"
+                    src="https://www.feastingtogether.com/Branding/Logo_Light.png"
                     width="auto"
                     height="225"
                     />
